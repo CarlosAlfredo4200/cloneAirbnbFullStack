@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const { getItems, createItem } = require('../controllers/images')
+const { getItems, createItem } = require('../controllers/images');
+
 
 router.get('/', getItems);
 

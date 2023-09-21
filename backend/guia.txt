@@ -7,6 +7,7 @@ npm i cors
 npm i bcrypt
 npm i nodemon
 npm i mongoose
+npm i express-validator
 
 Scaffold MVC
 

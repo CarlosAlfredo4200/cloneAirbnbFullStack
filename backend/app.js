@@ -5,6 +5,7 @@ const cors = require("cors");
 const dbConnect = require('./config/connectMongo.js');
 const routes = require("./routes/index.js");
 const app = express();
+app.use(express.static("storage"));
 
 app.use(cors());
 app.use(express.json());

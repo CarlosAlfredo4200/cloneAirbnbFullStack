@@ -8,7 +8,7 @@ const StorageSchema = new mongoose.Schema(
        
     },
     filename:{
-      type: String
+      type: String,
     }
     // Otros campos relacionados con las imágenes, como tamaño, tipo, etc.
   },
